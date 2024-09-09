@@ -34,6 +34,18 @@ namespace OOP2A_2425_OOPMethods
             twoNumSum(7, 5);
             twoNumSumWDef(5,20);
 
+            int numSample = getStringOutInt("Input a number please.");
+            Console.WriteLine($"Number is {numSample}");
+
+            Console.WriteLine($"Number is {getStringOutInt("Input a number please.")}");
+
+            int a = getStringOutInt("Input the first number please.");
+            int b = getStringOutInt("Input the second number please.");
+            Console.WriteLine($"The sum of {a} and {b} is {sumTwoNum(a,b)}");
+
+            Console.WriteLine($"The sum of the two numbers is " +
+                $"{sumTwoNum(getStringOutInt("Input the first number please."), getStringOutInt("Input the second number please."))}");
+
             Console.ReadKey();
         }
 
@@ -55,6 +67,35 @@ namespace OOP2A_2425_OOPMethods
         static void twoNumSumWDef(int a = 5, int b = 5)
         {
             Console.WriteLine(a+b);
+        }
+
+        static int getStringOutInt(string question)
+        {
+            string uInput = "";
+            int num = 0;
+
+            while (true)
+            {
+                Console.Write(question);
+                uInput = Console.ReadLine();
+
+                try
+                {
+                    num = int.Parse(uInput);
+                    break;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Input not valid, please try again.");
+                }
+            }
+
+            return num;
+        }
+
+        static int sumTwoNum(int a, int b)
+        {
+            return a + b;
         }
     }
 }
