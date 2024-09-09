@@ -69,6 +69,12 @@ namespace OOP2A_2425_OOPMethods
             Console.WriteLine(a+b);
         }
 
+        /// <summary>
+        /// This method gets an input from the user and changes it to an int.
+        /// Hi Seal!
+        /// </summary>
+        /// <param name="question">The guide question for the user</param>
+        /// <returns>Returns an integer</returns>
         static int getStringOutInt(string question)
         {
             string uInput = "";
