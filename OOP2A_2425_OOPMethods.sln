@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2A_2425_OOPMethods", "OOP2A_2425_OOPMethods\OOP2A_2425_OOPMethods.csproj", "{87E4D7C1-1B30-4257-BE96-33B13C4B6CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E4D7C1-1B30-4257-BE96-33B13C4B6CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E4D7C1-1B30-4257-BE96-33B13C4B6CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E4D7C1-1B30-4257-BE96-33B13C4B6CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E4D7C1-1B30-4257-BE96-33B13C4B6CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC78FA67-D2B2-48F8-9A69-8421B01A72E1}
+	EndGlobalSection
+EndGlobal
